@@ -1,0 +1,214 @@
+
+ Ansys Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2021 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2021 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2021 R2 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2021 R2
+ SpaceClaim 2021 R2  
+ Discovery 2021 R2   
+ ANSYS Sherlock 2021 R2  
+ Autodyn 2021 R2 
+ LS-DYNA 2021 R2 
+ CFX (includes CFD-Post) 2021 R2 
+ Chemkin 2021 R2 
+ EnSight 2021 R2 
+ FENSAP-ICE 2021 R2  
+ Fluent (includes CFD-Post) 2021 R2  
+ Polyflow (includes CFD-Post) 2021 R2
+ Forte (includes EnSight) 2021 R2
+ TurboGrid 2021 R2   
+ ICEM CFD 2021 R2
+ Aqwa 2021 R2
+ Speos 2021 R2   
+ Additive 2021 R2
+ Mechanical Products 2021 R2 
+ Icepak (includes CFD-Post) 2021 R2  
+ ACIS Geometry Interface 2021 R2 
+ AutoCAD Geometry Interface 2021 R2  
+ Catia, Version 4 Geometry Interface 2021 R2 
+ Catia, Version 5 Geometry Interface 2021 R2 
+ Catia, Version 6 Geometry Interface 2021 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2021 R2
+ Creo Parametric Geometry Interface 2021 R2  
+ Inventor Geometry Interface 2021 R2 
+ JTOpen Geometry Interface 2021 R2   
+ NX Geometry Interface 2021 R2   
+ Parasolid Geometry Interface  2021 R2   
+ Solid Edge Geometry Interface 2021 R2   
+ SOLIDWORKS Geometry Interface 2021 R2   
+ ANSYS, Inc. License Manager 2021 R2 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = file                                                                                                                                                                                                                                                    
+  BATCH MODE REQUESTED (-b)    = LIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  MPI OPTION                   = MSMPI   
+  INPUT FILE NAME              = CONIN$
+  OUTPUT FILE NAME             = C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\runs\test_001\file1.out
+
+ PARAMETER STATUS-           (   1 PARAMETERS DEFINED)
+
+ NAME                              VALUE                        TYPE
+ PORT                              50052.0000                    SCALAR
+
+ RELEASE= 2021 R2              BUILD= 21.2      UP20210601   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file1  00:38:27  SEP 02, 2026 CP=      0.062
+
+
+ PRINTOUT RESUMED BY /GOP
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                200
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ABORT LEVEL KEY= -1
+ ALL ERRORS WRITTEN TO C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\runs\test_001\file1.err                                                                                                                                                               
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ CLEAR ANSYS DATABASE AND RESTART
+
+ Ansys Mechanical Enterprise                       
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.078
+
+
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS. . . . . . . . . . . .ALL DATA WRITTEN
+                                                  FOR THE LAST SUBSTEP
+
+
+
+  Local memory allocated for solver              =     13.580 MB
+  Local memory required for in-core solution     =     13.085 MB
+  Local memory required for out-of-core solution =      9.019 MB
+
+ *** NOTE ***                            CP =       0.172   TIME= 00:38:28
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1       320  SOLID186      0.062   0.000195
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1       320  SOLID186      0.000   0.000000
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        2.000 MB WRITTEN ON ASSEMBLED MATRIX FILE: file1.full
+        0.562 MB WRITTEN ON RESULTS FILE: file1.rst
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         0.250
+
+
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          0
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2021 R2               Build 21.2         UP20210601     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)     1 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used       1 MB    Maximum Scratch Memory Used    131 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          0.266       Time  =  00:38:33        |
+ |        Elapsed Time (sec) =         12.000       Date  =  09/02/2026      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

@@ -1,0 +1,281 @@
+ Beta activation of the GRPC server.
+
+ Ansys Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2021 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2021 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2021 R2 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2021 R2
+ SpaceClaim 2021 R2  
+ Discovery 2021 R2   
+ ANSYS Sherlock 2021 R2  
+ Autodyn 2021 R2 
+ LS-DYNA 2021 R2 
+ CFX (includes CFD-Post) 2021 R2 
+ Chemkin 2021 R2 
+ EnSight 2021 R2 
+ FENSAP-ICE 2021 R2  
+ Fluent (includes CFD-Post) 2021 R2  
+ Polyflow (includes CFD-Post) 2021 R2
+ Forte (includes EnSight) 2021 R2
+ TurboGrid 2021 R2   
+ ICEM CFD 2021 R2
+ Aqwa 2021 R2
+ Speos 2021 R2   
+ Additive 2021 R2
+ Mechanical Products 2021 R2 
+ Icepak (includes CFD-Post) 2021 R2  
+ ACIS Geometry Interface 2021 R2 
+ AutoCAD Geometry Interface 2021 R2  
+ Catia, Version 4 Geometry Interface 2021 R2 
+ Catia, Version 5 Geometry Interface 2021 R2 
+ Catia, Version 6 Geometry Interface 2021 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2021 R2
+ Creo Parametric Geometry Interface 2021 R2  
+ Inventor Geometry Interface 2021 R2 
+ JTOpen Geometry Interface 2021 R2   
+ NX Geometry Interface 2021 R2   
+ Parasolid Geometry Interface  2021 R2   
+ Solid Edge Geometry Interface 2021 R2   
+ SOLIDWORKS Geometry Interface 2021 R2   
+ ANSYS, Inc. License Manager 2021 R2 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = file                                                                                                                                                                                                                                                    
+  BATCH MODE REQUESTED (-b)    = LIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  MPI OPTION                   = MSMPI   
+  INPUT FILE NAME              = C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\mapdl_hello_world\.__tmp__.inp
+  OUTPUT FILE NAME             = C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\mapdl_hello_world\.__tmp__.out
+
+ PARAMETER STATUS-           (   1 PARAMETERS DEFINED)
+
+ NAME                              VALUE                        TYPE
+ PORT                              50052.0000                    SCALAR
+
+ RELEASE= 2021 R2              BUILD= 21.2      UP20210601   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  00:16:08  SEP 02, 2026 CP=      1.328
+
+     1  FINISH 
+
+ RUN SETUP PROCEDURE FROM FILE= C:\Program Files\ANSYS Inc\v212\ANSYS\apdl\start.ans
+ Start GRPC Server
+
+ ##############################
+ ### START GRPC SERVER      ###
+ ##############################
+
+ Server Executable   : MapdlGrpc.Server
+ Server listening on : 0.0.0.0:50052
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   00:16:08  SEP 02, 2026 CP=      1.469
+
+                                                                               
+
+
+
+
+          ***** TIME-HISTORY POSTPROCESSOR (POST26) *****
+
+ ALL POST26 SPECIFICATIONS ARE RESET TO INITIAL DEFAULTS
+
+ *** NOTE ***                            CP =       1.469   TIME= 00:16:08
+ Geometry is not available.  Issue RESUME to restore database.           
+
+ *** WARNING ***                         CP =       1.469   TIME= 00:16:08
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+
+ ***** ROUTINE COMPLETED *****  CP =         1.469
+
+
+
+ /OUTPUT FILE= anstmp
+
+ *** WARNING ***                         CP =       1.484   TIME= 00:16:08
+ Altering the abort level key is not recommended.                        
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                200
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ABORT LEVEL KEY= -1
+ ALL ERRORS WRITTEN TO C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\mapdl_hello_world\file0.err                                                                                                                                                           
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ CLEAR ANSYS DATABASE AND RESTART
+
+ Ansys Mechanical Enterprise                       
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  NLIS      
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  NLIS      
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  S     EQV 
+
+ *** WARNING ***                         CP =       2.266   TIME= 00:16:09
+ Some entities requested in the *VGET were undefined.                    
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  NSEL      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  U     Y   
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=    2117
+ NAME= NODE         0  NSEL      
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+ You have already entered the general postprocessor (POST1).             
+
+ /OUTPUT FILE= anstmp
+ You have already entered the general postprocessor (POST1).             
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+ You have already entered the general postprocessor (POST1).             
+
+ /OUTPUT FILE= anstmp
+ You have already entered the general postprocessor (POST1).             
+
+ /OUTPUT FILE= anstmp

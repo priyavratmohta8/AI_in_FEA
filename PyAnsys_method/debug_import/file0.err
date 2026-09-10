@@ -1,0 +1,272 @@
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:18:55
+
+ *** WARNING ***                         CP =       2.031   TIME= 17:19:04
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.031   TIME= 17:19:04
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:19:07
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.594   TIME= 17:19:08
+ The COMPONENT, _VIWAKFSMIN_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.594   TIME= 17:19:08
+ The COMPONENT, _OQHVOKEVVS_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.594   TIME= 17:19:08
+ The COMPONENT, _CCXKGFWOMH_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:21:52
+
+ *** WARNING ***                         CP =       1.750   TIME= 17:21:59
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.750   TIME= 17:21:59
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       1.891   TIME= 17:22:01
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:22:02
+ The COMPONENT, _PHIBWSIPOE_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:22:02
+ The COMPONENT, _OTCAYOEYFX_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:22:02
+ The COMPONENT, _AHVOUEOQLM_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** ERROR ***                           CP =       2.422   TIME= 17:22:04
+ Element type 1 is UNKNOWN, which cannot be used with the VMES command.  
+ Meshing of volume 1 aborted.                                            
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:23:50
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:24:00
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.234   TIME= 17:24:00
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.625   TIME= 17:24:03
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       3.172   TIME= 17:24:04
+ The COMPONENT, _VEWWGBFAGZ_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.172   TIME= 17:24:04
+ The COMPONENT, _RXMGLQAIHW_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.172   TIME= 17:24:04
+ The COMPONENT, _DNIYGFOEMK_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.422   TIME= 17:24:06
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       3.812   TIME= 17:24:07
+ The COMPONENT, _QBNMIXPJDL_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.812   TIME= 17:24:07
+ The COMPONENT, _HLVLSNGIUH_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.812   TIME= 17:24:07
+ The COMPONENT, _CMMGHUHZLZ_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:26:43
+
+ *** WARNING ***                         CP =       2.109   TIME= 17:26:52
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.109   TIME= 17:26:52
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.234   TIME= 17:26:54
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.562   TIME= 17:26:55
+ The COMPONENT, _XTZZKEIBYE_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.562   TIME= 17:26:55
+ The COMPONENT, _OICTZAJEBH_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.562   TIME= 17:26:55
+ The COMPONENT, _ODXCFYDBVL_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:28:32
+
+ *** WARNING ***                         CP =       1.969   TIME= 17:28:41
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.984   TIME= 17:28:41
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.125   TIME= 17:28:43
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:28:44
+ The COMPONENT, _WWLQUKKTVW_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:28:44
+ The COMPONENT, _SXTRLAQBWA_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:28:44
+ The COMPONENT, _HWRVLVXOOX_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.734   TIME= 17:28:45
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:30:36
+
+ *** WARNING ***                         CP =       1.719   TIME= 17:30:43
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.750   TIME= 17:30:43
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.047   TIME= 17:30:45
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+
+ *** WARNING ***                         CP =       2.578   TIME= 17:30:46
+ For array parameter _MYVGET_ the dimension number 1 is 0.  All          
+ dimensions must be greater than zero.  The value is set to 1.           
+
+ *** WARNING ***                         CP =       2.781   TIME= 17:30:47
+ The DEPENDENT node (0) is undefined or unselected.  The CERIG command   
+ is ignored.                                                             
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:33:01
+
+ *** WARNING ***                         CP =       1.828   TIME= 17:33:08
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.844   TIME= 17:33:08
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.141   TIME= 17:33:10
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:35:12
+
+ *** WARNING ***                         CP =       1.766   TIME= 17:35:20
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.766   TIME= 17:35:20
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.094   TIME= 17:35:22
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+
+ *** WARNING ***                         CP =       2.719   TIME= 17:35:23
+ The DEPENDENT node (0) is undefined or unselected.  The CERIG command   
+ is ignored.                                                             
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:36:50
+
+ *** WARNING ***                         CP =       1.656   TIME= 17:36:57
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.672   TIME= 17:36:57
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       1.984   TIME= 17:36:59
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+
+ *** WARNING ***                         CP =       2.344   TIME= 17:37:00
+ The DEPENDENT node (0) is undefined or unselected.  The CERIG command   
+ is ignored.                                                             
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:38:21
+
+ *** WARNING ***                         CP =       2.172   TIME= 17:38:32
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.188   TIME= 17:38:32
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.547   TIME= 17:38:34
+ Mid-nodes of some elements have been modified to lie on straight edges  
+ because of distortion with the original mid-nodes.  This condition is   
+ sometimes eliminated by tetrahedron element improvement when enabled.   
+ Issue ESEL,,STRAIGHTENED to select such elements for listing or         
+ plotting.                                                               
+
+ *** WARNING ***                         CP =       2.781   TIME= 17:38:35
+ Label ROTZ is not an active degree of freedom.  The CERIG command is    
+ ignored.                                                                

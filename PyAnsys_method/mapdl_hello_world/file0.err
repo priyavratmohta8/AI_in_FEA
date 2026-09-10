@@ -1,0 +1,29 @@
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       00:08:52
+
+ *** WARNING ***                         CP =       1.469   TIME= 00:08:58
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.484   TIME= 00:08:58
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.109   TIME= 00:08:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, _UIQR, NODE, 0, S, EQV                                     
+  The *GET command is ignored.                                           
+
+ *** WARNING ***                         CP =       2.109   TIME= 00:08:59
+ Node 0 of *GET command is undefined.                                    
+  Line= *GET, __temp__, NODE, 0, S, EQV                                  
+  The *GET command is ignored.                                           
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       00:16:02
+
+ *** WARNING ***                         CP =       1.469   TIME= 00:16:08
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.484   TIME= 00:16:08
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.266   TIME= 00:16:09
+ Some entities requested in the *VGET were undefined.                    

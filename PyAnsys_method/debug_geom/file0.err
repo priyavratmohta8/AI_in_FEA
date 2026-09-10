@@ -1,0 +1,135 @@
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       16:40:25
+
+ *** WARNING ***                         CP =       2.328   TIME= 16:40:37
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.328   TIME= 16:40:37
+ Altering the abort level key is not recommended.                        
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       16:42:06
+
+ *** WARNING ***                         CP =       1.703   TIME= 16:42:13
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.703   TIME= 16:42:13
+ Altering the abort level key is not recommended.                        
+
+ *** ERROR ***                           CP =       1.828   TIME= 16:42:13
+ Keypoint 7 is referenced by only one line.  Improperly connected line   
+ set for AL command.                                                     
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       16:43:40
+
+ *** WARNING ***                         CP =       1.672   TIME= 16:43:47
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.672   TIME= 16:43:47
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       1.844   TIME= 16:43:48
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       1.984   TIME= 16:43:48
+ The COMPONENT, _WYXMBQXTTT_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       1.984   TIME= 16:43:48
+ The COMPONENT, _FZPHGMCIZR_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       1.984   TIME= 16:43:48
+ The COMPONENT, _BDKDOBPAOU_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:10:51
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:11:05
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:11:05
+ Altering the abort level key is not recommended.                        
+
+ *** ERROR ***                           CP =       2.562   TIME= 17:11:05
+ A volume with zero volume could be created by the VEXT command.         
+ Command ignored.                                                        
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       17:12:40
+
+ *** WARNING ***                         CP =       1.766   TIME= 17:12:48
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.781   TIME= 17:12:48
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       1.891   TIME= 17:12:48
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.047   TIME= 17:12:49
+ The COMPONENT, _YDSJXXPGKL_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.047   TIME= 17:12:49
+ The COMPONENT, _TIRHBSCWLN_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.047   TIME= 17:12:49
+ The COMPONENT, _CLCVQVSJHL_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.203   TIME= 17:12:51
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:12:52
+ The COMPONENT, _VNICWIULHC_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:12:52
+ The COMPONENT, _JTDOHDUBLQ_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:12:52
+ The COMPONENT, _GEBHTSPOKX_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       2.688   TIME= 17:12:53
+ Deactivation of element shape checking is not recommended.              
+
+ *** WARNING ***                         CP =       2.938   TIME= 17:12:54
+ Some entities requested in the *VGET were undefined.                    
+
+ *** WARNING ***                         CP =       3.094   TIME= 17:12:55
+ The COMPONENT, _JTDOHDUBLQ_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.094   TIME= 17:12:55
+ The COMPONENT, _ETIFPPILJC_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     
+
+ *** WARNING ***                         CP =       3.094   TIME= 17:12:55
+ The COMPONENT, _CKMZPLYEPK_VOLU_, does not have all underlying entities 
+ selected.  Issuing an ALLSEL or other select commands before CDWRITE    
+ will ensure all underlying entities are selected.  This COMPONENT will  
+ not be written to the CDWRITE file.                                     

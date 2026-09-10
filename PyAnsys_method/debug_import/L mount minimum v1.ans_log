@@ -1,0 +1,173 @@
+
+ *GET  _SAV1     FROM  common    ITEM=ERRCOM   INT  N=    6
+    VALUE=  200.000000    
+
+ *GET  _SAV2     FROM  common    ITEM=ERRCOM   INT  N=    7
+    VALUE=  10000.0000    
+
+ PARAMETER _SAV3 =     0.000000000    
+
+ *GET  _SAV4     FROM  common    ITEM=ERTRKCM  INT  N=    1
+    VALUE=  5.00000000    
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                200
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ABORT LEVEL KEY= -1
+ ALL ERRORS WRITTEN TO C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_import\file0.err                                                                                                                                                                
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ *GET  _Z1       FROM  ACTI  ITEM=KEYW PRIGES    VALUE=  0.00000000    
+
+ *IF  _z1                               ( =   0.00000     )  GT  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ELSE
+
+ KEYPOINT NUMBER =      1    0.900000E-02   0.00000      0.500000E-02
+
+ KEYPOINT NUMBER =      2    0.900000E-02 -0.200000E-02  0.500000E-02
+
+ KEYPOINT NUMBER =      3    0.900000E-02 -0.200000E-02  0.150000E-01
+
+ KEYPOINT NUMBER =      4    0.900000E-02   0.00000      0.150000E-01
+
+ KEYPOINT NUMBER =      5    0.150000E-01   0.00000      0.200000E-01
+
+ KEYPOINT NUMBER =      6    0.150000E-01   0.00000       0.00000    
+
+ KEYPOINT NUMBER =      7    0.180000E-01  0.300000E-02  0.244929E-18
+
+ KEYPOINT NUMBER =      8    0.180000E-01  0.300000E-02  0.200000E-01
+
+ KEYPOINT NUMBER =      9     0.00000       0.00000      0.200000E-01
+
+ KEYPOINT NUMBER =     10    0.200000E-01 -0.200000E-02  0.200000E-01
+
+ KEYPOINT NUMBER =     11     0.00000     -0.200000E-02  0.200000E-01
+
+ KEYPOINT NUMBER =     12     0.00000       0.00000       0.00000    
+
+ KEYPOINT NUMBER =     13    0.200000E-01 -0.200000E-02   0.00000    
+
+ KEYPOINT NUMBER =     14     0.00000     -0.200000E-02   0.00000    
+
+ KEYPOINT NUMBER =     15    0.200000E-01  0.200000E-01  0.200000E-01
+
+ KEYPOINT NUMBER =     16    0.180000E-01  0.200000E-01  0.200000E-01
+
+ KEYPOINT NUMBER =     17    0.180000E-01  0.200000E-01  0.244929E-18
+
+ KEYPOINT NUMBER =     18    0.200000E-01  0.200000E-01   0.00000    
+
+ LINE NUMBER    1 edge typ  1 keypts    2    1
+
+ LINE NUMBER    2 edge typ  1 keypts    3    4
+
+ LINE NUMBER    3 edge typ  1 keypts    6    7
+
+ LINE NUMBER    4 edge typ  1 keypts    5    8
+
+ LINE NUMBER    5 edge typ  1 keypts    6    5
+
+ LINE NUMBER    6 edge typ  1 keypts    7    8
+
+ LINE NUMBER    7 edge typ  1 keypts   11   14
+
+ LINE NUMBER    8 edge typ  1 keypts   10   13
+
+ LINE NUMBER    9 edge typ  1 keypts    9   12
+
+ LINE NUMBER   10 edge typ  1 keypts    5    9
+
+ LINE NUMBER   11 edge typ  1 keypts   10   15
+
+ LINE NUMBER   12 edge typ  1 keypts   11   10
+
+ LINE NUMBER   13 edge typ  1 keypts    9   11
+
+ LINE NUMBER   14 edge typ  1 keypts    6   12
+
+ LINE NUMBER   15 edge typ  1 keypts   13   18
+
+ LINE NUMBER   16 edge typ  1 keypts   14   13
+
+ LINE NUMBER   17 edge typ  1 keypts   12   14
+
+ LINE NUMBER   18 edge typ  1 keypts   17    7
+
+ LINE NUMBER   19 edge typ  1 keypts   16    8
+
+ LINE NUMBER   20 edge typ  1 keypts   16   15
+
+ LINE NUMBER   21 edge typ  1 keypts   17   16
+
+ LINE NUMBER   22 edge typ  1 keypts   18   17
+
+ LINE NUMBER   23 edge typ  1 keypts   15   18
+
+ LINE NUMBER   24 edge typ  1 keypts    3    2
+
+ LINE NUMBER   25 edge typ  1 keypts    2    3
+
+ LINE NUMBER   26 edge typ  1 keypts    4    1
+
+ LINE NUMBER   27 edge typ  1 keypts    1    4
+
+ AREA NUMBER    1 surf typ  1 num loops  1 max edge  4
+  Edges
+        25         1        27         2
+
+ AREA NUMBER    2 surf typ  1 num loops  2 max edge  4
+  Edges
+        10         5        14         9        26        27         0         0
+
+ AREA NUMBER    3 surf typ  1 num loops  1 max edge  4
+  Edges
+        17         7        13         9
+
+ AREA NUMBER    4 surf typ  1 num loops  2 max edge  4
+  Edges
+        16         8        12         7        24        25         0         0
+
+ AREA NUMBER    5 surf typ  1 num loops  1 max edge  4
+  Edges
+        15        23        11         8
+
+ AREA NUMBER    6 surf typ  1 num loops  1 max edge  7
+  Edges
+        13        12        11        20        19         4        10
+
+ AREA NUMBER    7 surf typ  1 num loops  1 max edge  7
+  Edges
+        17        14         3        18        22        15        16
+
+ AREA NUMBER    8 surf typ  1 num loops  1 max edge  4
+  Edges
+        18         6        19        21
+
+ AREA NUMBER    9 surf typ  1 num loops  1 max edge  4
+  Edges
+        23        22        21        20
+
+ AREA NUMBER   10 surf typ  1 num loops  1 max edge  4
+  Edges
+         1        24         2        26
+
+ AREA NUMBER   11 surf typ  1 num loops  1 max edge  4
+  Edges
+         3         5         4         6
+
+ VOLUME NUMBER    1 num shells  1 max area 11
+  Areas
+         1         2         3         4         5         6         7         8
+         9        10        11
+
+ *ENDIF
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                200
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ABORT LEVEL KEY= -1
+ ALL ERRORS WRITTEN TO C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_import\file0.err                                                                                                                                                                
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR

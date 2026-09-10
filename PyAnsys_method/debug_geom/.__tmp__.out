@@ -1,0 +1,1580 @@
+ Beta activation of the GRPC server.
+
+ Ansys Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2021 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2021 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2021 R2 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2021 R2
+ SpaceClaim 2021 R2  
+ Discovery 2021 R2   
+ ANSYS Sherlock 2021 R2  
+ Autodyn 2021 R2 
+ LS-DYNA 2021 R2 
+ CFX (includes CFD-Post) 2021 R2 
+ Chemkin 2021 R2 
+ EnSight 2021 R2 
+ FENSAP-ICE 2021 R2  
+ Fluent (includes CFD-Post) 2021 R2  
+ Polyflow (includes CFD-Post) 2021 R2
+ Forte (includes EnSight) 2021 R2
+ TurboGrid 2021 R2   
+ ICEM CFD 2021 R2
+ Aqwa 2021 R2
+ Speos 2021 R2   
+ Additive 2021 R2
+ Mechanical Products 2021 R2 
+ Icepak (includes CFD-Post) 2021 R2  
+ ACIS Geometry Interface 2021 R2 
+ AutoCAD Geometry Interface 2021 R2  
+ Catia, Version 4 Geometry Interface 2021 R2 
+ Catia, Version 5 Geometry Interface 2021 R2 
+ Catia, Version 6 Geometry Interface 2021 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2021 R2
+ Creo Parametric Geometry Interface 2021 R2  
+ Inventor Geometry Interface 2021 R2 
+ JTOpen Geometry Interface 2021 R2   
+ NX Geometry Interface 2021 R2   
+ Parasolid Geometry Interface  2021 R2   
+ Solid Edge Geometry Interface 2021 R2   
+ SOLIDWORKS Geometry Interface 2021 R2   
+ ANSYS, Inc. License Manager 2021 R2 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = file                                                                                                                                                                                                                                                    
+  BATCH MODE REQUESTED (-b)    = LIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  MPI OPTION                   = MSMPI   
+  INPUT FILE NAME              = C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_geom\.__tmp__.inp
+  OUTPUT FILE NAME             = C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_geom\.__tmp__.out
+
+ PARAMETER STATUS-           (   1 PARAMETERS DEFINED)
+
+ NAME                              VALUE                        TYPE
+ PORT                              50052.0000                    SCALAR
+
+ RELEASE= 2021 R2              BUILD= 21.2      UP20210601   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  17:12:47  SEP 02, 2026 CP=      1.625
+
+     1  FINISH 
+
+ RUN SETUP PROCEDURE FROM FILE= C:\Program Files\ANSYS Inc\v212\ANSYS\apdl\start.ans
+ Start GRPC Server
+
+ ##############################
+ ### START GRPC SERVER      ###
+ ##############################
+
+ Server Executable   : MapdlGrpc.Server
+ Server listening on : 0.0.0.0:50052
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2021 R2          21.2     ***
+ DISTRIBUTED Ansys Mechanical Enterprise                       
+
+ 00000000  VERSION=WINDOWS x64   17:12:48  SEP 02, 2026 CP=      1.766
+
+                                                                               
+
+
+
+
+          ***** TIME-HISTORY POSTPROCESSOR (POST26) *****
+
+ ALL POST26 SPECIFICATIONS ARE RESET TO INITIAL DEFAULTS
+
+ *** NOTE ***                            CP =       1.766   TIME= 17:12:48
+ Geometry is not available.  Issue RESUME to restore database.           
+
+ *** NOTE ***                            CP =       1.766   TIME= 17:12:48
+ Unable to open default results file file.rst                            
+  Use FILE command to open a results file.                               
+
+ *** WARNING ***                         CP =       1.766   TIME= 17:12:48
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+
+ ***** ROUTINE COMPLETED *****  CP =         1.766
+
+
+
+ /OUTPUT FILE= anstmp
+
+ *** WARNING ***                         CP =       1.781   TIME= 17:12:48
+ Altering the abort level key is not recommended.                        
+
+
+ NUMBER OF DISPLAYED ERRORS ALLOWED PER COMMAND=                200
+ NUMBER OF ERRORS ALLOWED PER COMMAND BEFORE ANSYS ABORT=     10000
+ ABORT LEVEL KEY= -1
+ ALL ERRORS WRITTEN TO C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_geom\file0.err                                                                                                                                                                  
+ DO NOT TERMINATE /INPUT UPON FIRST ERROR
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ CLEAR ANSYS DATABASE AND RESTART
+
+ Ansys Mechanical Enterprise                       
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       1.844   TIME= 17:12:48
+ The component definition of _TIRHBSCWLN_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       1.844   TIME= 17:12:48
+ The component definition of _TIRHBSCWLN_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _TIRHBSCWLN_ELEM_  ENTITY=ELEM
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       1
+ NAME= VOLU         0  VLIS      
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       1
+ NAME= VOLU         0  VLIS      
+
+ SELECT      ALL AREAS HAVING ANY VOLUMES IN SELECTED VOLUME SET.
+
+        9  AREAS (OF        9  DEFINED) SELECTED FROM 
+        1 SELECTED VOLUMES BY  ASLV  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       1.875   TIME= 17:12:48
+ The component definition of _PNQTWPVEMU_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       1.875   TIME= 17:12:48
+ The component definition of _PNQTWPVEMU_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _PNQTWPVEMU_ELEM_  ENTITY=ELEM
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       9
+ NAME= AREA         0  ALIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ STARTING AREA NUMBER =                    9
+
+ GENERATE     2 TOTAL SETS OF AREAS        
+   SET IS ALL SELECTED AREAS        
+   DX,DY,DZ=    0.00        0.00        0.00           CSYS=  0
+   DO NOT COPY NODE AND ELEMENTS
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT       FOR ITEM=AREA COMPONENT=    
+  IN RANGE        10 TO         18 STEP          1
+
+        9  AREAS (OF       18  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ALIS      
+
+ SET ATTRIBUTES FOR ALL SELECTED AREAS
+      MAT =    0   REAL =       0   TYPE =    0   ESYS =    0   SECN =    0
+
+ ATTRIBUTES SET FOR      9 AREAS (OUT OF      9 SELECTED)
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ELEMENT TYPE          1 IS MESH200      4-NODE QUAD MESHING FACET   
+  KEYOPT( 1- 6)=        6      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ TURN OFF ELEMENT SHAPE CHECKING
+
+ *** WARNING ***                         CP =       1.891   TIME= 17:12:48
+ Deactivation of element shape checking is not recommended.              
+
+ RESET SMART SIZING PARAMETERS
+      SIZE LEVEL                                      =      7
+      SMART SIZING SCALE               FACTOR         =   1.5000    
+      AREA INTERNAL EXPANSION          FACTOR         =   1.0000    
+      AREA INTERNAL TRANSITION CONTROL FACTOR         =   2.0000    
+      SPANNED ANGLE PER ELEMENT (LOW  ORDER ELEMENTS) =     26
+      SPANNED ANGLE PER ELEMENT (HIGH ORDER ELEMENTS) =     36
+      GROWTH RATIO FOR PROXIMITY CHECK                =   1.7000    
+      MAXIMUM NUMBER OF ITERATIONS                    =      4
+      SURFACE PROXIMITY REFINEMENT IS                     OFF 
+      SMALL HOLE COARSENING IS                            ON  
+
+ ELEMENT TYPE SET TO         1
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ALIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ATTR  NELM
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_VOLU_  ENTITY=VOLU
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_NODE_  ENTITY=NODE
+
+ DEFINITION OF COMPONENT = _EJWKPWGSYG_ELEM_  ENTITY=ELEM
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+        852 NODES (OF        852  DEFINED) SELECTED FROM
+      850 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     850
+ NAME= ELEM         0  ELIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     852
+ NAME= NODE         0  NLIS      
+
+ SELECT      COMPONENT _EJWKPWGSYG_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _EJWKPWGSYG_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _EJWKPWGSYG_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _EJWKPWGSYG_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _EJWKPWGSYG_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _EJWKPWGSYG_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+    CLEAR NODES AND ELEMENTS FROM  ALL  SELECTED AREAS    
+
+ CLEARED     9 AREAS,    21 LINES,    14 KEYPOINTS
+
+ DELETE   ALL   SELECTED AREAS.
+
+     DELETED    9 AREAS,    21 LINES,     14 KEYPOINTS
+
+ STARTING AREA NUMBER =                    1
+
+ ELEMENT TYPE SET TO         1
+
+ DELETE ELEMENT TYPES FROM          1 TO          1 BY          1
+
+ REACTIVATE ELEMENT SHAPE CHECKING
+
+ DEACTIVATE SMART SIZING
+
+ SELECT      COMPONENT _PNQTWPVEMU_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _PNQTWPVEMU_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _PNQTWPVEMU_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _PNQTWPVEMU_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _PNQTWPVEMU_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _PNQTWPVEMU_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ALIS      
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.016   TIME= 17:12:49
+ The component definition of _CLCVQVSJHL_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.016   TIME= 17:12:49
+ The component definition of _CLCVQVSJHL_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _CLCVQVSJHL_ELEM_  ENTITY=ELEM
+
+ SELECT      LINES ASSOCIATED WITH SELECTED AREAS
+
+       21  LINES (OF       21  DEFINED) SELECTED FROM
+        9 SELECTED AREAS BY  LSLA  COMMAND.
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.031   TIME= 17:12:49
+ The component definition of _YDSJXXPGKL_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.031   TIME= 17:12:49
+ The component definition of _YDSJXXPGKL_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _YDSJXXPGKL_ELEM_  ENTITY=ELEM
+
+ ALL SELECT   FOR ITEM=KP   COMPONENT=    
+  IN RANGE         1 TO         29 STEP          1
+
+       15  KEYPOINTS (OF       15  DEFINED) SELECTED BY  KSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      29
+ NAME= KP           0  KLIS      
+
+ ALL SELECT   FOR ITEM=LINE COMPONENT=    
+  IN RANGE         1 TO         42 STEP          1
+
+       21  LINES (OF       21  DEFINED) SELECTED BY LSEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      42
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ALL SELECT   FOR ITEM=AREA COMPONENT=    
+  IN RANGE         1 TO         18 STEP          1
+
+        9  AREAS (OF        9  DEFINED) SELECTED BY ASEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ALIS      
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO          1 STEP          1
+
+        0 VOLUMES (OF        1  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _YDSJXXPGKL_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      42
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CLCVQVSJHL_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _TIRHBSCWLN_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.156   TIME= 17:12:51
+ The component definition of _JTDOHDUBLQ_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.156   TIME= 17:12:51
+ The component definition of _JTDOHDUBLQ_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _JTDOHDUBLQ_ELEM_  ENTITY=ELEM
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       2
+ NAME= VOLU         0  VLIS      
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       2
+ NAME= VOLU         0  VLIS      
+
+ SELECT      ALL AREAS HAVING ANY VOLUMES IN SELECTED VOLUME SET.
+
+        9  AREAS (OF       13  DEFINED) SELECTED FROM 
+        1 SELECTED VOLUMES BY  ASLV  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.188   TIME= 17:12:51
+ The component definition of _QXJINQTMWR_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.188   TIME= 17:12:51
+ The component definition of _QXJINQTMWR_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _QXJINQTMWR_ELEM_  ENTITY=ELEM
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      18
+ NAME= AREA         0  ALIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ STARTING AREA NUMBER =                   13
+
+ GENERATE     2 TOTAL SETS OF AREAS        
+   SET IS ALL SELECTED AREAS        
+   DX,DY,DZ=    0.00        0.00        0.00           CSYS=  0
+   DO NOT COPY NODE AND ELEMENTS
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT       FOR ITEM=AREA COMPONENT=    
+  IN RANGE        14 TO         22 STEP          1
+
+        9  AREAS (OF       22  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ SET ATTRIBUTES FOR ALL SELECTED AREAS
+      MAT =    0   REAL =       0   TYPE =    0   ESYS =    0   SECN =    0
+
+ ATTRIBUTES SET FOR      9 AREAS (OUT OF      9 SELECTED)
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ELEMENT TYPE          1 IS MESH200      4-NODE QUAD MESHING FACET   
+  KEYOPT( 1- 6)=        6      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ TURN OFF ELEMENT SHAPE CHECKING
+
+ *** WARNING ***                         CP =       2.203   TIME= 17:12:51
+ Deactivation of element shape checking is not recommended.              
+
+ RESET SMART SIZING PARAMETERS
+      SIZE LEVEL                                      =      7
+      SMART SIZING SCALE               FACTOR         =   1.5000    
+      AREA INTERNAL EXPANSION          FACTOR         =   1.0000    
+      AREA INTERNAL TRANSITION CONTROL FACTOR         =   2.0000    
+      SPANNED ANGLE PER ELEMENT (LOW  ORDER ELEMENTS) =     26
+      SPANNED ANGLE PER ELEMENT (HIGH ORDER ELEMENTS) =     36
+      GROWTH RATIO FOR PROXIMITY CHECK                =   1.7000    
+      MAXIMUM NUMBER OF ITERATIONS                    =      4
+      SURFACE PROXIMITY REFINEMENT IS                     OFF 
+      SMALL HOLE COARSENING IS                            ON  
+
+ ELEMENT TYPE SET TO         1
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ATTR  NELM
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_VOLU_  ENTITY=VOLU
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_NODE_  ENTITY=NODE
+
+ DEFINITION OF COMPONENT = _AYHVHYZOZP_ELEM_  ENTITY=ELEM
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+        712 NODES (OF        712  DEFINED) SELECTED FROM
+      712 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     712
+ NAME= ELEM         0  ELIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     712
+ NAME= NODE         0  NLIS      
+
+ SELECT      COMPONENT _AYHVHYZOZP_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _AYHVHYZOZP_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _AYHVHYZOZP_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _AYHVHYZOZP_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _AYHVHYZOZP_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _AYHVHYZOZP_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+    CLEAR NODES AND ELEMENTS FROM  ALL  SELECTED AREAS    
+
+ CLEARED     9 AREAS,    21 LINES,    14 KEYPOINTS
+
+ DELETE   ALL   SELECTED AREAS.
+
+     DELETED    9 AREAS,    21 LINES,     14 KEYPOINTS
+
+ STARTING AREA NUMBER =                    1
+
+ ELEMENT TYPE SET TO         1
+
+ DELETE ELEMENT TYPES FROM          1 TO          1 BY          1
+
+ REACTIVATE ELEMENT SHAPE CHECKING
+
+ DEACTIVATE SMART SIZING
+
+ SELECT      COMPONENT _QXJINQTMWR_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _QXJINQTMWR_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _QXJINQTMWR_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _QXJINQTMWR_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _QXJINQTMWR_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _QXJINQTMWR_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.391   TIME= 17:12:52
+ The component definition of _VNICWIULHC_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.391   TIME= 17:12:52
+ The component definition of _VNICWIULHC_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _VNICWIULHC_ELEM_  ENTITY=ELEM
+
+ SELECT      LINES ASSOCIATED WITH SELECTED AREAS
+
+       21  LINES (OF       31  DEFINED) SELECTED FROM
+        9 SELECTED AREAS BY  LSLA  COMMAND.
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.406   TIME= 17:12:52
+ The component definition of _GEBHTSPOKX_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.406   TIME= 17:12:52
+ The component definition of _GEBHTSPOKX_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _GEBHTSPOKX_ELEM_  ENTITY=ELEM
+
+ ALL SELECT   FOR ITEM=KP   COMPONENT=    
+  IN RANGE         1 TO         37 STEP          1
+
+       23  KEYPOINTS (OF       23  DEFINED) SELECTED BY  KSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      37
+ NAME= KP           0  KLIS      
+
+ ALL SELECT   FOR ITEM=LINE COMPONENT=    
+  IN RANGE         1 TO         52 STEP          1
+
+       31  LINES (OF       31  DEFINED) SELECTED BY LSEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      52
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ALL SELECT   FOR ITEM=AREA COMPONENT=    
+  IN RANGE         1 TO         22 STEP          1
+
+       13  AREAS (OF       13  DEFINED) SELECTED BY ASEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO          2 STEP          1
+
+        0 VOLUMES (OF        2  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _GEBHTSPOKX_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      52
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _VNICWIULHC_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=       2
+ NAME= VOLU         0  VLIS      
+
+ SELECT      ALL AREAS HAVING ANY VOLUMES IN SELECTED VOLUME SET.
+
+        4  AREAS (OF       13  DEFINED) SELECTED FROM 
+        1 SELECTED VOLUMES BY  ASLV  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       2.641   TIME= 17:12:53
+ The component definition of _DLZNNQRPEH_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       2.641   TIME= 17:12:53
+ The component definition of _DLZNNQRPEH_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _DLZNNQRPEH_ELEM_  ENTITY=ELEM
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ STARTING AREA NUMBER =                   13
+
+ GENERATE     2 TOTAL SETS OF AREAS        
+   SET IS ALL SELECTED AREAS        
+   DX,DY,DZ=    0.00        0.00        0.00           CSYS=  0
+   DO NOT COPY NODE AND ELEMENTS
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT       FOR ITEM=AREA COMPONENT=    
+  IN RANGE        14 TO         17 STEP          1
+
+        4  AREAS (OF       17  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ SET ATTRIBUTES FOR ALL SELECTED AREAS
+      MAT =    0   REAL =       0   TYPE =    0   ESYS =    0   SECN =    0
+
+ ATTRIBUTES SET FOR      4 AREAS (OUT OF      4 SELECTED)
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ELEMENT TYPE          1 IS MESH200      4-NODE QUAD MESHING FACET   
+  KEYOPT( 1- 6)=        6      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ TURN OFF ELEMENT SHAPE CHECKING
+
+ *** WARNING ***                         CP =       2.688   TIME= 17:12:53
+ Deactivation of element shape checking is not recommended.              
+
+ RESET SMART SIZING PARAMETERS
+      SIZE LEVEL                                      =      7
+      SMART SIZING SCALE               FACTOR         =   1.5000    
+      AREA INTERNAL EXPANSION          FACTOR         =   1.0000    
+      AREA INTERNAL TRANSITION CONTROL FACTOR         =   2.0000    
+      SPANNED ANGLE PER ELEMENT (LOW  ORDER ELEMENTS) =     26
+      SPANNED ANGLE PER ELEMENT (HIGH ORDER ELEMENTS) =     36
+      GROWTH RATIO FOR PROXIMITY CHECK                =   1.7000    
+      MAXIMUM NUMBER OF ITERATIONS                    =      4
+      SURFACE PROXIMITY REFINEMENT IS                     OFF 
+      SMALL HOLE COARSENING IS                            ON  
+
+ ELEMENT TYPE SET TO         1
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ATTR  NELM
+
+ *** WARNING ***                         CP =       2.938   TIME= 17:12:54
+ Some entities requested in the *VGET were undefined.                    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_VOLU_  ENTITY=VOLU
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_NODE_  ENTITY=NODE
+
+ DEFINITION OF COMPONENT = _CUAYEBYNZN_ELEM_  ENTITY=ELEM
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+        176 NODES (OF        176  DEFINED) SELECTED FROM
+      174 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     174
+ NAME= ELEM         0  ELIS      
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=     176
+ NAME= NODE         0  NLIS      
+
+ SELECT      COMPONENT _CUAYEBYNZN_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CUAYEBYNZN_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CUAYEBYNZN_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CUAYEBYNZN_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CUAYEBYNZN_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CUAYEBYNZN_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+    CLEAR NODES AND ELEMENTS FROM  ALL  SELECTED AREAS    
+
+ CLEARED     4 AREAS,    10 LINES,     8 KEYPOINTS
+
+ DELETE   ALL   SELECTED AREAS.
+
+     DELETED    4 AREAS,    10 LINES,      8 KEYPOINTS
+
+ STARTING AREA NUMBER =                    1
+
+ ELEMENT TYPE SET TO         1
+
+ DELETE ELEMENT TYPES FROM          1 TO          1 BY          1
+
+ REACTIVATE ELEMENT SHAPE CHECKING
+
+ DEACTIVATE SMART SIZING
+
+ SELECT      COMPONENT _DLZNNQRPEH_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _DLZNNQRPEH_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _DLZNNQRPEH_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _DLZNNQRPEH_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _DLZNNQRPEH_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _DLZNNQRPEH_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       3.062   TIME= 17:12:54
+ The component definition of _ETIFPPILJC_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       3.078   TIME= 17:12:54
+ The component definition of _ETIFPPILJC_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _ETIFPPILJC_ELEM_  ENTITY=ELEM
+
+ SELECT      LINES ASSOCIATED WITH SELECTED AREAS
+
+       10  LINES (OF       31  DEFINED) SELECTED FROM
+        4 SELECTED AREAS BY  LSLA  COMMAND.
+
+ /OUTPUT FILE= anstmp
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_KP_  ENTITY=KP  
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_LINES_  ENTITY=LINE
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_AREA_  ENTITY=AREA
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_VOLU_  ENTITY=VOLU
+
+ *** NOTE ***                            CP =       3.078   TIME= 17:12:54
+ The component definition of _CKMZPLYEPK_NODE_ contains no data.         
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_NODE_  ENTITY=NODE
+
+ *** NOTE ***                            CP =       3.078   TIME= 17:12:54
+ The component definition of _CKMZPLYEPK_ELEM_ contains no data.         
+
+ DEFINITION OF COMPONENT = _CKMZPLYEPK_ELEM_  ENTITY=ELEM
+
+ ALL SELECT   FOR ITEM=KP   COMPONENT=    
+  IN RANGE         1 TO         37 STEP          1
+
+       23  KEYPOINTS (OF       23  DEFINED) SELECTED BY  KSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      37
+ NAME= KP           0  KLIS      
+
+ ALL SELECT   FOR ITEM=LINE COMPONENT=    
+  IN RANGE         1 TO         52 STEP          1
+
+       31  LINES (OF       31  DEFINED) SELECTED BY LSEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      52
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ ALL SELECT   FOR ITEM=AREA COMPONENT=    
+  IN RANGE         1 TO         22 STEP          1
+
+       13  AREAS (OF       13  DEFINED) SELECTED BY ASEL COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      22
+ NAME= AREA         0  ALIS      
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO          2 STEP          1
+
+        0 VOLUMES (OF        2  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _CKMZPLYEPK_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ VECTOR GET OPERATION  _MYVGET_  VECTOR LENGTH=      52
+ NAME= LINE         0  LLIS      
+
+ PARAMETER __TMPVAR__ =     1.000000000    
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _ETIFPPILJC_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_KP_                 
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_LINES_              
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_AREA_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_VOLU_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_NODE_               
+
+ /OUTPUT FILE= anstmp
+
+ SELECT      COMPONENT _JTDOHDUBLQ_ELEM_               
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+ /OUTPUT FILE= anstmp
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.172
+
+
+
+ PURGE ALL SOLUTION AND POST DATA
+ SAVE ALL MODEL DATA
+
+ ALL CURRENT ANSYS DATA WRITTEN TO FILE NAME= file.db
+  FOR POSSIBLE RESUME FROM THIS POINT
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=         15
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: 2021 R2            Build: 21.2       Update: UP20210601   Platform: WINDOWS x64 
+Date Run: 09/02/2026   Time: 17:13     Process ID: 5500
+Operating System: Windows 10  (Build: 26100)
+
+Processor Model: 12th Gen Intel(R) Core(TM) i5-12500H
+
+Compiler: Intel(R) FORTRAN Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) C/C++ Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
+          BLAS Library supplied by Intel(R) MKL
+
+Number of machines requested            :    1
+Total number of cores available         :   16
+Number of physical cores available      :   12
+Number of processes requested           :    2
+Number of threads per process requested :    1
+Total number of cores requested         :    2 (Distributed Memory Parallel)               
+MPI Type: MSMPI   
+MPI Version: Microsoft MPI 10.1.12498.18
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: .__tmp__.inp
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0                   Priyavrat   C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_geom
+     1                   Priyavrat   C:\Users\priya\Desktop\Skills\Placement Prep\AI in FEA project\PyAnsys method\debug_geom
+ 
+Latency time from master to core     1 =    1.896 microseconds
+ 
+Communication speed from master to core     1 =  1761.64 MB/sec
+
+Total CPU time for main thread                    :        0.4 seconds
+Total CPU time summed for all threads             :        3.3 seconds
+
+Elapsed time spent obtaining a license            :        6.7 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        8.1 seconds
+Elapsed time spent solution - preprocessing       :        0.0 seconds
+Elapsed time spent computing solution             :        0.0 seconds
+Elapsed time spent solution - postprocessing      :        0.0 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+Elapsed time spent post-processing model (/POST26):        0.0 seconds
+ 
+
+Maximum total memory used                         :        9.0 MB
+Maximum total memory allocated                    :     3136.0 MB
+Total physical memory available                   :         16 GB
+
+Total amount of I/O written to disk               :        0.0 GB
+Total amount of I/O read from disk                :        0.0 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2021 R2               Build 21.2         UP20210601     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used       2 MB    Maximum Scratch Memory Used      2 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          3.266       Time  =  17:13:01        |
+ |        Elapsed Time (sec) =         22.000       Date  =  09/02/2026      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*

@@ -1,0 +1,11 @@
+/COM,ANSYS RELEASE 2021 R2           BUILD 21.2      UP20210601       00:38:22
+
+ *** WARNING ***                         CP =       1.484   TIME= 00:38:28
+ The geometry is not available.  Issue the RESUME command to restore the 
+ database.  The NUMVAR command is ignored.                               
+
+ *** WARNING ***                         CP =       1.500   TIME= 00:38:28
+ Altering the abort level key is not recommended.                        
+
+ *** WARNING ***                         CP =       2.109   TIME= 00:38:29
+ Some entities requested in the *VGET were undefined.                    

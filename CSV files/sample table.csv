@@ -1,0 +1,8 @@
+﻿# 
+# 08/19/2026 22:08:41
+# The parameters defined in the project are:
+# ,P1 - length [m],P2 - width [m],P3 - thickness [m],P4 - height [m],P5 - Equivalent Stress Maximum [Pa]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3,P4,P5
+DP 0,0.02,0.02,0.002,0.02,6093632063.94978
